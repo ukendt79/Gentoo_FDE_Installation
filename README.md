@@ -1,3 +1,5 @@
+# Gentoo Full Disk Encryption OpenRC MBR Kurulumu
+
 1-) cfdisk /dev/sda
 
 sda1| 512M > boot
