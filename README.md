@@ -96,7 +96,7 @@ sda2| XXG > LUKS #Diskin geri kalan alani luks ile sifrelenecek
 
 47-) blkid # Bolumlerin UUID numaralarini kaydet. /etc/fstab dosyasi su sekilde olmalidir;
 
-<fs>                                          <mountpoint>    <type>          <opts>          <dump/pass>
+#<fs>                                          <mountpoint>    <type>          <opts>          <dump/pass>
 
 UUID=DB1D-89C5                                /boot           ext4            noauto,noatime  1 2
 
@@ -106,9 +106,9 @@ UUID=61e4cc83-a1ee-4190-914b-4b62b49ac77f     /var            ext4            de
 
 UUID=5d6ff087-50ce-400f-91c4-e3378be23c00     /home           ext4            defaults        0 1
 
-tmps
+#tmps
 
-tmpfs                                           /tmp            tmpfs           size=4G         0 0
+tmpfs                                         /tmp            tmpfs           size=4G         0 0
 
 48-) emerge sys-kernel/gentoo-sources
 
