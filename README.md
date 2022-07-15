@@ -95,7 +95,8 @@ sda2| XXG > LUKS #Diskin geri kalan alani luks ile sifrelenecek
 46-) env-update && source /etc/profile
 
 47-) blkid # Bolumlerin UUID numaralarini kaydet. /etc/fstab dosyasi su sekilde olmalidir;
-![fstab](https://user-images.githubusercontent.com/105305285/179135706-3a75650f-90c5-49df-a3be-4b2487abc3d6.png)
+![fstab_ornek](https://user-images.githubusercontent.com/105305285/179135974-0b1c7caf-7058-48cb-8e11-c9012f438fcf.png)
+
 
 48-) emerge sys-kernel/gentoo-sources
 
