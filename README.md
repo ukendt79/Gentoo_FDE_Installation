@@ -96,7 +96,7 @@ sda2| XXG > LUKS #Diskin geri kalan alani luks ile sifrelenecek
 
 47-) blkid # Bolumlerin UUID numaralarini kaydet. /etc/fstab dosyasi su sekilde olmalidir;
 
-#<fs>                                          <mountpoint>    <type>          <opts>          <dump/pass>
+                                              <mountpoint>    <type>          <opts>          <dump/pass>
 
 UUID=DB1D-89C5                                /boot           ext4            noauto,noatime  1 2
 
