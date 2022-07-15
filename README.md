@@ -46,7 +46,9 @@ sda2| XXG > LUKS #Diskin geri kalan alani luks ile sifrelenecek
 
 22-) cd /mnt/gentoo
 
-23-) wget https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20220710T170538Z/stage3-amd64-openrc-20220710T170538Z.tar.xz
+23-) 
+
+wget https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20220710T170538Z/stage3-amd64-openrc-20220710T170538Z.tar.xz
 
 24-) tar -xvf stage3-amd64-openrc-20220710T170538Z.tar.xz --xattrs --numeric-owner
 
